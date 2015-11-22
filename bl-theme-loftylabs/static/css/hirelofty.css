@@ -1,0 +1,47 @@
+.navbar-brand {
+    padding: 7px 15px;
+}
+
+.slider-text p {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
+
+.footer-col a {
+    color: #b3b3b3;
+}
+
+body.template-blogpage .blog-bg {
+    background: transparent 50% no-repeat fixed;
+    height: 500px;
+    min-height: 200px;
+    padding: 100px 0;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+}
+
+body.template-blogpage h1 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 20px;
+    text-shadow: 2px 2px 5px #333333;
+}
+
+body.template-blogpage h1 small {
+    color: #e5e5e5;
+    font-weight: normal;
+
+}
+
+body.template-blogpage .blog-post-detail p, .blog-post-detail li {
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: normal;
+}
+body.template-blogpage .blog-post-info {
+    text-align: left;
+}
+body.template-blogpage .blog-post-info  span {
+    font-size: 16px;
+}
