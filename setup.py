@@ -9,7 +9,7 @@ with open(path.join(here, 'DESCRIPTION.rst')) as f:
 
 setup(
     name="bl-theme-loftylabs",
-    version='0.0.1',
+    version='0.0.1.1',
 
     descripition='Baseline theme for the lofty labs website',
     long_description=long_description,
