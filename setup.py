@@ -34,5 +34,6 @@ setup(
     keywords='cms blog blogging platform website builder',
 
     packages=find_packages(exclude=['tests*']),
+    package_data={'bl-theme-loftylabs': ['static*', 'templates*']},
     install_requires=[]
 )
