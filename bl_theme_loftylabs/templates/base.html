@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 {% load url from future %}
-{% load static wagtailuserbar blog_tags %}
+{% load static wagtailuserbar baseline_blog baseline_menu %}
 <html>
     <head>
         <meta charset="utf-8">
@@ -67,8 +67,9 @@
 
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/blog/">Blog</a></li>
-                            <li><a href="/contact-us/">Contact Us</a></li>
+
+                            {% get_site_root as site_root %}
+                            {% top_menu parent=site_root calling_page=self %}
 
                             <li class="social-nav"><a href="https://www.facebook.com/hirelofty"><i class="ion-social-facebook"></i></a></li>
                             <li class="social-nav"><a href="https://www.twitter.com/loftylabs"><i class="ion-social-twitter"></i></a></li>
