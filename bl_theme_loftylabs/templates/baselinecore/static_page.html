@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>{{ page.title }}</h2>
-<p>{{ page.body }}</p>
+<section id="content-region-3" class="padding-40 page-tree-bg" style="background-position: 50% 52px;">
+    <div class="container">
+        <h3 class="page-tree-text">
+            {{ page.title }}
+        </h3>
+    </div>
+</section>
+<div class="space-70"></div>
+<div class="container">
+    {{ page.body }}
+</div>
+<div class="space-70"></div>
 {% endblock %}
